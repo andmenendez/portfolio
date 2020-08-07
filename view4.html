@@ -1,0 +1,138 @@
+<!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> -->
+<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> -->
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Kanit|Reenie+Beanie&display=swap" rel="stylesheet">
+
+<div class="mission">
+	<div class="text" id="text1">
+		<!-- <p><span class="begin">Design for Communication</span><br/></p> -->
+		<p><span class="begin">ThisIsAtlanta</span><br/></p>
+		<p>I was selected to pioneer the first website for an Atlanta Startup called "ThisIsAtlanta". The primary focus to this website was to keep track of attendance. ThisIsAtlanta hosts various events through out the city & at different times & keeping track of attendance is not only important for security reasons but also an important business analytic. The website also offers a "ticket" where users can screenshot in advance to get into the event directly instead of having to wait in line to register.</p>
+		<p>Creating a website is also creating the face of a business. I had to make sure that this portal would create a lasting impression. This meant making it dynamic, unique & friendly. The interface is intuitive & the flow is unlike most websites. The admin interface is designed under a unique URL where anyone with access can add/remove events & look at the users that have signed up via the page.</p>
+		<p>This is my biggest project yet & will be continuously changing over time as I start working with designers & adding more features.This site was designed through <strong>Ruby On Rails</strong> & supported by <strong>Heroku, AWS S3 & a Postgres database</strong>.</p>
+		<p>Please check it out by clicking on the site below & sign up to check out the ticket system.</p>
+	</div>
+
+	<a class="button" href="http://thisisatl.com/archive" target="_blank" style="margin: 15px;padding:15px;background-color: rgba(255,255,255,0.25); font-size: 18px;">THISISATLANTA.COM</a>
+	
+</div>
+
+<!-- font-family: 'Kanit', sans-serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Reenie Beanie', cursive; -->
+<style>
+	* { 
+		font-family: 'Crimson Text', serif;
+		color:  rgba(255,255,255,1);
+	}
+	li {
+		width: 500px;
+		text-align: left;
+		padding-left: 50px;
+	}
+	p {
+		padding: 5px 0 5px 0;
+		font-size: 16px;
+		font-family: 'Crimson Text', serif;
+		color:  rgba(255,255,255,.8);
+	}
+	h1 {
+		text-decoration: bold;
+	}
+	img {
+		width: 400px;
+		object-fit: contain;
+		object-position: center;
+		transition: .75s;
+
+		filter: blur(2px) grayscale(30%);
+	}
+	.img_container {
+		top: 200px;
+		position: absolute;
+		margin: 25px;
+
+	}
+	.button {
+		width: 200px;
+		margin-top: 25px;
+		padding: 15px;
+		background-color: rgba(14,4,0,.5);
+		font-size: 28px;
+		text-align: center;
+		opacity: 1;
+		transition: 0.25s;
+		border: 2px solid rgba(255,255,255,1);
+		z-index: 100;
+	}
+	.button:hover {
+		cursor: pointer;
+		background-color: rgba(45,4,0,.7);
+		border: 2px solid rgba(255,255,255,0.2);
+	}
+
+	.begin {
+		position: relative;
+		font-size: 25px;
+	}
+	.mission {
+		position: absolute;
+		height: 100%;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		text-align: center;
+		/*top: 25%;*/
+		padding: 0 50px 0 50px;
+		z-index: 99;
+	}
+	.text {
+		transition: 1s;
+		width: 70%;
+		padding: 15px 25px 15px 25px;
+		background-color: rgba(14,4,0,.6);
+		border: 3px solid rgba(255,255,255,0.2);
+	}
+	.text:hover {
+		background-color: rgba(14,4,0,.9);
+	}
+	.siteframe3 {
+		z-index: 2000;
+		position: absolute;
+		background: white;
+		transition: 1s;
+		top: -10vh;
+		width: 100%;
+		height: 100%;
+		transform: scale(.75) translateY(300vh);
+		box-shadow: 0 15px 50px 15px rgba(0,0,0,0.75);
+	}
+</style>
+<script>
+// var site_open = false;
+// function toggleSite(n) {
+// 	if (document.getElementById(`site${n}`)) {
+// 		if (!site_open)
+// 		{
+// 			console.log("open");
+// 			document.getElementById(`site${n}`).style.transform="scale(.75) translateY(0)";
+// 			document.getElementById(`text${n}`).style.filter="blur(2px)";
+// 			site_open = true;
+// 			window.onmousedown = function() {toggleSite(1)};
+// 		}
+// 		else
+// 		{
+// 			console.log("close");
+// 			document.getElementById(`site${n}`).style.transform="scale(.75) translateY(300vh)";
+// 			document.getElementById(`text${n}`).style.filter="blur(0px)";
+
+// 			site_open = false;
+
+// 			window.onmousedown = function() {};
+// 		}
+// 	}
+// }
+</script>
