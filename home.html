@@ -16,6 +16,7 @@
 	</head>
 
 	<body>
+		<div id="container">
 		<div id='bigDot'></div>
 		<h1 id='titleName'>Andres M Menendez</h1>
 		<div id='title'>
@@ -27,37 +28,55 @@
 		</div>
 
 		<div id='categories'>
-
-
-			<div class='category' id='c1'>
-				<h2>Startup Work</h2>
-				<div class='a'><div class='dot'></div><a href='https://www.branch.vote/'>Branch.vote</a></div>
-				<div class='a'><div class='dot'></div><a href='https://withhansa.com/'>WithHansa</a></div>
-			</div>
 			
+			<div class='category' id='c1'>
+				<h2>Neeva</h2>
+				<ul>
+					<li class="a"><span class="h">Implemented</span> wide range of customer facing responsive UI pages, components and tooling with multi-language support</li>
+					<li class="a"><span class="h">Constructed</span> and redesigned pages with A/B testing to allow for user conversion funnel analysis</li>
+					<li class="a"><span class="h">Built</span> modal and banner notices across the entire site and application for marketing and user notices.</li>
+					<li class="a"><span class="h">Redesigned</span>, documented and owned email workflow for customer signup flow and outreach (mailchimp, mandrill)</li>
+				</ul>
+			</div>
 
 			<div class='category' id='c2'>
-				<h2>ML Projects</h2>
-				<div class='a'><div class='dot'></div><a href='https://github.com/andmenendez/Reinforcement-Learning-Projects'>Exploring Reinforcement Learning</a></div>
-				<div class='a'><div class='dot'></div><a href='https://github.com/andmenendez/MABe-Challenge-Submission'>MABe Challenge</a></div>
-			</div>
-			
-			<div class='category' id='c3'>
-				<h2>Vanilla Web Projects</h2>
-				<div class='a'><div class='dot'></div><a href='http://www.andmenendez.com/index.html'>Old Portfolio Website</a></div>
-				<div class='a'><div class='dot'></div><a href='https://beboptimer.herokuapp.com/WorkClock_v2.html'>Cowboy Bebop Timer</a></div>
+				<h2>WithHansa</h2>
+				<ul>
+					<li class="a"><span class="h">Developed</span>, created and designed the foundational and initial front end platform for the WithHansa application </li>
+					<li class="a"><span class="h">Owned</span>, built and implemented full multi-language support infrastructure for entire application with documentation</li>
+					<li class="a"><span class="h">Developed</span> hooks, API endpoints, and built connections to third party applications and integrated their services.</li>
+					<li class="a"><span class="h">Overhauled</span> and rebuilt pages for web responsiveness, and a mobile-targeted user experience</li>
+				</ul>
 			</div>
 
-			<div class='category' id='c4'>
-				<h2>Client Work</h2>
-				<div class='a'><div class='dot'></div><a href='http://www.ciracanelas.com/index.html'>Cira Canelas Counseling</a></div>
-				<div class='a'><div class='dot'></div><a href='https://www.jacksonleblancagency.com/'>Jackson Leblanc Agency</a></div>
+			<div class='category' id='c1'>
+				<h2>Branch.vote</h2>
+				<ul>
+					<li class="a"><span class="h">Volunteered</span> work to help develop React.js components for Branch.vote website for dynamic forms and central UI</li>
+					<li class="a"><span class="h">Implemented</span> an AWS Lambda hook to split audio at provided time markers and save to AWS S3 bucket</li>
+				</ul>
 			</div>
 
-			<div class='category' id='c5'>
-				<h2>Video Game</h2>
-				<div class='a'><div class='dot'></div><a href='https://github.com/andmenendez/BitScape-Game'>BitScape Puzzle Game</a></div>
+			<div class='category' id='c1'>
+				<h2>AICrowd Multi-Agent Behavior Challenge</h2>
+				<ul>
+					<li class="a"><span class="h">Built</span> supervised and unsupervised neural nets with PyTorch to predict behavioral classifications1,2</li>
+					<li class="a"><span class="h">Designed</span> iteratively and implemented data pipeline methods, ie loss-modules to deal with class imbalances</li>
+					<li class="a"><span class="h">Validated</span> multiple supervised / unsupervised models via network analysis, anomaly detection, and active learning</li>
+					<li class="a"><span class="h">Presented</span> data visualizations and scored in the top 25 performances of the MABe Challenge <sup><a href='https://github.com/andmenendez/MABe-Challenge-Submission' > [1]</a> <a href="https://www.aicrowd.com/challenges/multi-agent-behavior-representation-modeling-measurement-and-applications/problems/mabe-task-1-classical-classification/submissions/167477">[2]</a></sup></li>
+				</ul>
 			</div>
+
+			<div class='category' id='c1'>
+				<h2>Reinforcement Learning Explorations</h2>
+				<ul>
+					<li class="a"><span class="h">Modeled</span> and trained a DQN to solve the OpenAI Lunar Lander via TensorFlow / Keras</li>
+					<li class="a"><span class="h">Explored</span> optimal parameter tuning with an RL agent to uniquely adapt the TD method to a simple problem </li>
+					<li class="a"><span class="h">Implemented</span> dimensionality reduction methods, PCA, ICA, SVD and clustering in discussion paper </li>
+					<li class="a"><span class="h">Evaluated</span> Ada-Boosting, Decision Trees, kNN, MLPs, and SVDs in discussion comparison paper</li>
+				</ul>
+			</div>
+
 		</div>
 
 
@@ -66,8 +85,8 @@
 			<p id='f2'><a href='https://github.com/andmenendez'>github.com/andmenendez</a></p>
 
 			<h3 id='f3'>Contact</h3>
-			<p id='f4'>andmenendez@gmail.com</p>
-			<p><a href='https://www.linkedin.com/in/andres-menendez-ab819483/'> LinkedIn </a></p>
+			<p id="f4"><a class='linkedIn' href='mailto:andmenendez@gmail.com'>andmenendez@gmail.com</a></p>
+			<p><a class='linkedIn' href='https://www.linkedin.com/in/andres-menendez-ab819483/'> LinkedIn </a></p>
 
 			<h3 id='f5'><a href="andmenendez.pdf" download target="_blank">Full Resume Download</a></h3>
 		</div>
@@ -77,7 +96,7 @@
 
 
 
-
+	</div>
 	</body>
 
 
