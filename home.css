@@ -11,6 +11,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	background: rgba(45, 45, 45, 1);
+	background: rgba(245, 245, 245, 1);
 }
 
 #container {
@@ -20,6 +21,9 @@ body {
 	width: fit-content;
 	border-radius: 8px;
 	padding: 24px;
+	box-shadow: 5px 0px 5px rgba(121, 121, 121, .2),
+		-5px 0px 5px rgba(121, 121, 121, .2);
+	margin-top: 24px;
 }
 @media (max-width: 600px) {
 	body {
@@ -27,8 +31,10 @@ body {
 	}
 	#container {
 		width: 100vw;
+		box-shadow: none !important;
 		top: 0;
 		padding: 0;
+		margin-top: 0;
 	}
 }
 
@@ -40,7 +46,7 @@ h1 {
 	position: absolute;
 	width: 256px;
 	height: 256px;
-	transform: translateX(-55%);
+	transform: translateX(-55%) translateY(12px);
 	left: 0;
 	top: 0;
 	border-radius: 100%;
@@ -84,7 +90,7 @@ h1 {
 		margin-left: 96px;
 	}
 	#title {
-		margin-left:54px ;
+		margin-left:84px ;
 	}
 }
 h2 {
@@ -157,13 +163,19 @@ a {
 	border-radius: 100%;
 	margin: -1vw 1vw 0 0vw;
 }
+.section-divider {
+	width: 75%;
+	border: .5px solid rgba(121, 121, 121, .25);
+	margin: 24px 0;
+	text-align:left;
+}
 #categories {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	gap: 16px;
-	padding: 16px 32px;
-	margin: 16px 0;
+	gap: 12px;
+	padding: 36px 32px;
+	margin: 24px 0;
 
 	box-sizing: content-box;
 
@@ -185,6 +197,7 @@ a {
 
 @media (max-width: 600px) {
 	#categories {
+		margin-top: 64px;
 		padding: 32px 0;
 	}
 	.category {
@@ -193,7 +206,7 @@ a {
 	}
 }
 .category > ul {
-	padding-left: 18px;
+	padding: 0 18px;
 	margin: 0;
 	display: flex;
 	flex-direction: column;
@@ -252,6 +265,10 @@ a {
 	padding-top: 2vw;
 	font-size: 1em;
 	color: rgba(232, 139, 0, 1);
+}
+
+sup > a {
+	font-size: 8px !important;
 }
 
 #f5 {
